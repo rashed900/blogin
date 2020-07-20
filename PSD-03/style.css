@@ -1,0 +1,260 @@
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration:none;
+}
+body{
+	
+	font-family:sans-sarif, Arial !important;
+}
+.container{
+	max-width:980px;
+	width:100%;
+	display:block;
+	margin:0 auto;
+}
+.container_full{
+	width:100%;
+}
+.header_bg{
+		background:#292929;
+}
+#header{
+	overflow:hidden;
+}
+#header .logo_left {
+	float: left;
+	padding-top: 30px;
+}
+#header .logo_left h1 {
+	font-size: 40px;
+	font-weight: 700;
+	color: #fff;
+}
+#header nav{
+	float:right;
+}
+#header>nav #menu{
+	list-style: none;
+}
+#header>nav #menu li {
+	float: left;
+
+	border-right:1px solid #1E1E1E;
+}
+#header>nav #menu li:first-child{
+	border-left:1px solid #1E1E1E;
+}
+#header>nav #menu li a{
+	text-decoration: none;
+text-transform: capitalize;
+font-size: 16px;
+color: #fff;
+font-weight: 700;
+padding:50px 30px;
+display:block;
+border-bottom:5px solid #1E1E1E;
+}
+#header>nav #menu li a:hover{
+	border-bottom:5px solid #58C93A;
+	color:#58C93A;
+}
+#header>nav #menu li.active a{
+	border-bottom:5px solid #58C93A;
+	color:#58C93A;
+}
+.content_wrapper_bg{
+	border-top:5px solid #1E1E1E;
+	margin-top:-5px;
+	border-bottom:1px solid #E1E0E0;
+}
+.content_wrapper {
+	border-left: 1px solid #E1E0E0;
+	border-right: 1px solid #E1E0E0;
+	padding-top: 75px;
+	overflow: hidden;
+}
+.left_content{
+	float:left;
+	width:620px;
+	margin-right:10px;
+}
+.left_content .single_post_wrapper{
+	
+	margin-bottom:80px;
+}
+.left_content .single_post_wrapper img{
+	width:620px;
+	height:308px;
+}
+.left_content .single_post_wrapper h1{
+	font-size:28px;
+	font-weight:700;
+	color:#4f4e4e;
+	text-transform:uppercase;
+	padding-left:20px;
+	padding-top:20px;
+}
+.left_content .single_post_wrapper p{
+	font-size:16px;
+	font-weight:400;
+	color:#606060;
+	padding-left:20px;
+	padding-top:20px;
+}
+.left_content .single_post_wrapper .continue_r {
+	color: #c2c1c1;
+	font-size: 16px;
+	font-weight: 700;
+	border: 1px solid #C2C2C2;
+	padding: 11px 23px;
+	display: inline-block;
+	border-radius: 26px;
+	    margin-top: 30px;
+}
+#sidebar{
+	float:right;
+	width:280px;
+}
+#sidebar .single_sidebar{
+	overflow:hidden;
+	margin-bottom:40px;
+}
+#sidebar .single_sidebar h1 {
+	color: #6c6969;
+	font-weight: 700;
+	font-size: 16px;
+	text-transform: uppercase;
+	border-left: 3px solid #58C93A;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	margin-bottom: 15px;
+	background: #F8F8F8;
+}
+#sidebar .single_sidebar p {
+	color: #737373;
+	font-size: 16px;
+	margin-left: 10px;
+	width: 95%;
+}
+#sidebar .single_sidebar .search_box {
+	color: #b9b9b9;
+	font-size: 12px;
+	width: 280px;
+	height: 50px;
+	border: 1px solid #E1E0E0;
+	padding-left: 15px;
+}
+.email_submit{
+	position:relative;
+}
+.email_submit input{
+	width: 280px;
+	height: 50px;
+	border: 1px solid #E1E0E0;
+}
+.email_submit input[type="submit"] {
+	float: right;
+	background: url(img/Untitled-1.png);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	text-indent: -9999px;
+	border: none;
+	top: 11px;
+	left: 240px;
+	background-repeat: no-repeat;
+	cursor:pointer;
+}
+.email_submit input[type="email"]{
+	color: #b9b9b9;
+	font-size: 12px;
+	padding-left: 15px;
+}
+.content_bottom {
+	border-top: 1px solid #E1E0E0;
+	border-right: 1px solid #E1E0E0;
+	border-left: 1px solid #E1E0E0;
+	padding: 40px 0px;
+	overflow: hidden;
+}
+.content_bottom .previous {
+	color: #818181;
+	font-weight: 700;
+	font-size: 18px;
+	float:left;
+	padding-left: 15px;
+}
+.content_bottom .next{
+		color: #818181;
+	font-weight: 700;
+	font-size: 18px;
+	float:right;
+	padding-right: 15px;
+}
+
+.footer_section {
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 80px;
+}
+.footer_section .top_footer h1 {
+	font-size: 40px;
+	font-weight: 700;
+	color:#292929;
+}
+.footer_section .top_footer p{
+	color:#a6a6a6;
+		font-size: 13px;
+}
+.footer_section .social_icon{
+	
+}
+.footer_section .social_icon ul{
+	list-style:none;
+}
+.footer_section .social_icon ul li {
+	display: inline-block;
+	margin: 40px 12px;
+}
+.footer_section .social_icon ul li.facbook a{
+	background:url(img/facebook-02.jpg) no-repeat;
+	height:40px;
+	width:40px;
+	display:block;
+}
+.footer_section .social_icon ul li.facbook:hover a{
+	background:url(img/facebook-01.jpg) no-repeat;
+}
+.footer_section .social_icon ul li.twitter a{
+	background:url(img/tweeter-01.jpg) no-repeat;
+	height:40px;
+	width:40px;
+	display:block;
+}
+.footer_section .social_icon ul li.twitter:hover a{
+	background:url(img/tweeter-02.jpg) no-repeat;
+}
+
+.footer_section .social_icon ul li.be a{
+	background:url(img/be-01.jpg) no-repeat;
+	height:40px;
+	width:40px;
+	display:block;
+}
+.footer_section .social_icon ul li.be:hover a{
+	background:url(img/be-02.jpg) no-repeat;
+}
+
+.footer_section .social_icon ul li.icon a{
+	background:url(img/icon-01.jpg) no-repeat;
+	height:40px;
+	width:40px;
+	display:block;
+}
+.footer_section .social_icon ul li.icon:hover a{
+	background:url(img/icon-02.jpg) no-repeat;
+}
